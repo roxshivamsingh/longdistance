@@ -1,3 +1,4 @@
+import org.jetbrains.compose.compose
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -16,6 +17,7 @@ dependencies {
     implementation(libs.androidx.activity.compose)
 
     implementation(libs.compose.uiToolingPreview)
+
     debugImplementation(libs.compose.uiTooling)
 }
 
